@@ -31,7 +31,8 @@ function Hypotenuse(){
     var sumOfsqsides = sum_Of_sqsides(Number(inputSides[0].value) ,Number(inputSides[1].value));
 
     var hypo = Math.sqrt(sumOfsqsides);
-    outputelement.innerText = "The Hypotenuse side is " + hypo + "cm";
+    hypo = hypo.toFixed(4);
+    outputelement.innerText = "The Hypotenuse side is " + hypo + " cm";
 
     }
 

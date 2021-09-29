@@ -32,7 +32,7 @@ function Area_of_Triangle() {
         var multi = prod_of_sides(x,y);
 
         var area = 0.5 * multi;
-        outputelement.innerText = "The Area of triangle is " + area + "cm";
+        outputelement.innerText = "The Area of triangle is " + area + " cm²";
     }
 
 
